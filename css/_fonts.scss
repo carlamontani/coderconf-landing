@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "gobold_bolditalic";
+    src: url("fonts/gobold_bold_italic-webfont.woff2") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gobolditalic";
+    src: url("fonts/gobold_regular_italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: "GoboldThinLight-Italic";
+    src: url("./fonts/GoboldLightItalic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/GoboldLightItalic.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+    font-family: "GoboldHollow-Italic";
+    src: url("./fonts/GoboldHollowItalic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/GoboldHollowItalic.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
