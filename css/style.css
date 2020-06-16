@@ -130,7 +130,7 @@
   align-items: flex-end;
 }
 .seccion-1 .banner .info-banner {
-  width: 50%;
+  width: 40%;
   height: 100%;
   padding: 100px 0px 0px 140px;
   display: flex;
@@ -163,8 +163,9 @@
 }
 .seccion-1 .banner .img-banner {
   display: flex;
-  width: 550px;
-  height: 672px;
+  width: 900px;
+  padding-bottom: 40px;
+  height: auto;
 }
 .seccion-1 .banner .img-banner #imagen-banner {
   width: 100%;
@@ -333,10 +334,9 @@
   justify-content: space-between;
 }
 .seccion-3 #img-seccion-3 {
-  width: 400px;
-  height: 542px;
-  margin-left: 140px;
-  padding-right: 20px;
+  width: 600px;
+  margin-left: 40px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
