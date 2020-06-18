@@ -12,62 +12,77 @@
 <body>
 <!-- <----------ENCABEZADO----------------------> 
 <header class="seccion-1">
-    <div class="header-nav">
-        <div class="logo-coderhouse"><span>CODER</span>CONF</div>
+    <div class="video-banner">
+        <video alt="popcorn" class="bg-video" autoplay muted loop>
+            <source src="./img/popcorn_pantalla completa_1.mp4" type="video/mp4">
+        </video>
+        <div class="header-nav">
+            <div class="logo-coderhouse"><span>CODER</span>CONF</div>
 
-        <nav class="nav-1">
-            <div id="menu">
-                <ul id="menu-principal">
-                    <li id="menu-li">
-                        <a href="#">Speakers</a>
-                    </li>
-                    <li id="menu-li">
-                        <a href="#">Agenda</a>
-                    </li>
-                    <li id="menu-li">
-                        <a href="#">Sponsors</a>
-                    </li>
-                    <li id="menu-li">
-                        <a href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-            <div id="tickets">
-                <button class="boton-3">
-                    <i class="fas fa-ticket-alt"></i>Tickets
-                </button>
-            </div>
-        </nav>
-    </div>
-
-<!-- <------------------------FIN ENCABEZADO---------------------------> 
-
-<!-- <----------SECCION1 BANNER----------------------> 
-    <section class="banner">
-        <div class="info-banner">
-            <p>Reunimos a los mejores en</p>
-            <h2>Una maratón de</h2>
-            <h2>experiencias digitales</h2>
-            <h4>Argentina - 5 Nov 2020</h4>
+            <nav class="nav-1">
+                <div id="menu">
+                    <ul id="menu-principal">
+                        <li id="menu-li">
+                            <a href="#">Speakers</a>
+                        </li>
+                        <li id="menu-li">
+                            <a href="#">Agenda</a>
+                        </li>
+                        <li id="menu-li">
+                            <a href="#">Sponsors</a>
+                        </li>
+                        <li id="menu-li">
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="tickets">
+                    <button class="boton-3">
+                        <i class="fas fa-ticket-alt"></i>Tickets: $1500
+                    </button>
+                </div>
+            </nav>
         </div>
-        <div class="img-banner">
-            <img src="./img/pop-corn.gif" alt="popcorn" id="imagen-banner">
-        </div>
-        <div class="cuenta-regresiva">
-            <div class="contador">
-                <button class="boton-2"><i class="fas fa-ticket-alt"></i>Tickets en preventa</button>
-                <div class="contador-info">
-                    <p>La preventa finaliza en </p>
-                    <div class="countdown-reloj">
-                        <p id="countdown-dias"></p><p class="texto-countdown">dias</p> <p class="hora">:</p>
-                        <p id="countdown-horas"></p><p class="texto-countdown">horas</p> <p class="hora">:</p>
-                        <p id="countdown-minutos"></p><p class="texto-countdown">minutos</p> <p class="hora">:</p>
-                        <p id="countdown-segundos"></p><p class="texto-countdown">segundos</p>
+
+    <!-- <------------------------FIN ENCABEZADO---------------------------> 
+
+    <!-- <----------SECCION1 BANNER----------------------> 
+        <section class="banner">
+            <div class="info-banner">
+                <p>Reunimos a los mejores en</p>
+                <h2>Una maratón de conferencias online</h2>
+                <h4>Argentina - 5 Nov 2020</h4>
+            </div>
+
+            <div class="cuenta-regresiva">
+                <div class="contador">
+                    <div id="botonconprecio" >
+                        <button class="boton-2"><i class="fas fa-ticket-alt"></i>Tickets en preventa</button>
+                        <div id="precio">$1500</div>
+                    </div>
+                    <div class="contador-info">
+                        <div id="texto-preventa">
+                            <p>La preventa finaliza en </p>
+                        </div>
+                        <div class="countdown-reloj">
+                            <div class="countdown">
+                                <p id="countdown-segundos"></p><p class="texto-countdown">segundos</p> <p class="hora">:</p>
+                            </div>
+                            <div class="countdown">
+                                <p id="countdown-minutos"></p><p class="texto-countdown">minutos</p> <p class="hora">:</p>
+                            </div>
+                            <div class="countdown">
+                                <p id="countdown-horas"></p><p class="texto-countdown">horas</p> <p class="hora">:</p>
+                            </div>
+                            <div class="countdown">
+                                <p id="countdown-dias"></p><p class="texto-countdown">dias</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>      
 </header>
 
 <!-- <---------- FIN SECCION1 BANNER----------------------> 
@@ -92,13 +107,15 @@
 <!-- <----------SECCION3 CONFERENCIAS----------------------> 
     <section class="seccion-3">
         <div id="img-seccion-3">
-            <img src="./img/microfono.gif" alt="" id="imagen-seccion-3" alt="imagen-microfono">
-        </div>
-        <div id="conferencias-seccion-3">
-            <p class="titulo-10"><span>+</span>12</p>
-            <p class="titulo-thin">Conferencias</p>
-            <h3>de 30 min</h3>
-            <button class="boton-1">Agenda<i class="fas fa-arrow-right"></i></button>
+            <video alt="microfono" class="bg-video" autoplay muted loop>
+                <source src="./img/micro_pantalla completa_ amarillo.mp4" type="video/mp4">       
+            </video> 
+            <div id="conferencias-seccion-3">
+                    <p class="titulo-10"><span>+</span>25</p>
+                    <p class="titulo-thin">Conferencias</p>
+                    <h3>de 30 min cada una</h3>
+                    <button class="boton-1">Agenda<i class="fas fa-arrow-right"></i></button>
+            </div>
         </div>
     </section>    
 <!-- <----------FIN SECCION3 CONFERENCIAS----------------------> 
@@ -169,9 +186,7 @@
                         <p>Licenciada en Informática y Desarrolladora de Software que actualmente trabaja en Meedan</p>
                     </div>
                 </div>
-            </div>
-
-            <div class="cards-1">
+            
                 <div class="speakerscard">
                     <div class="container">
                         <img src="https://picsum.photos/id/669/200?grayscale" alt="">
@@ -377,10 +392,18 @@
         </div>
         <div id="contador">
             <div class="countdown-reloj">
-                <p id="countdown-dias2"></p><p class="texto-countdown">dias</p> <p class="hora">:</p>
-                <p id="countdown-horas2"></p><p class="texto-countdown">horas</p> <p class="hora">:</p>
-                <p id="countdown-minutos2"></p><p class="texto-countdown">minutos</p> <p class="hora">:</p>
-                <p id="countdown-segundos2"></p><p class="texto-countdown">segundos</p>
+                <div class="countdown">
+                    <p id="countdown-segundos2"></p><p class="texto-countdown">segundos</p> <p class="hora">:</p>
+                </div>
+                <div class="countdown">
+                    <p id="countdown-minutos2"></p><p class="texto-countdown">minutos</p> <p class="hora">:</p>
+                </div>
+                <div class="countdown">
+                    <p id="countdown-horas2"></p><p class="texto-countdown">horas</p> <p class="hora">:</p>
+                </div>
+                <div class="countdown">
+                    <p id="countdown-dias2"></p><p class="texto-countdown">dias</p>
+                </div>
             </div>
         </div>
         <div id="boton-seccion-7">
@@ -435,14 +458,24 @@
                     <label for="fname">Nombre</label><br>
                     <input type="text" id="fname" name="fname" value=""><br>
                     <label for="lname">Email</label><br>
-                    <input type="text" id="lname" name="lname" value=""><br><br>
-                </div>
-                <div id="form-texto">
+                    <input type="text" id="lname" name="lname" value=""><br>
                     <label for="mensaje">Mensaje</label>
                     <textarea rows="4" cols="80" name="comment" form="usrform"></textarea>
                     <button type="submit" class="btn-form" value="Enviar">
                         Enviar <i class="fas fa-arrow-right"></i>
                     </button>
+                </div>
+                <div id="form-img">
+                    <img src="./img/mailcoder.png" alt="" id="imagen-seccion-3" alt="imagen-microfono">
+                    <div id="contacto-whatsapp">
+                        <div id="icon-wp">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div id="texto-whatsapp">
+                            <p>Escribinos por Whatsapp</p>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </form> 
         </div>    
