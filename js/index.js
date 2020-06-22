@@ -36,10 +36,16 @@ var countdown = setInterval(function() {
   }
 }, 1000);
 
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".menu-principal");
+const logo = document.querySelector(".logo");
 
 
 
-
+hamburger.addEventListener("click", function(){
+  navLinks.classList.toggle("open");
+  logo.classList.toggle("display-none");
+})
 
 
 /*
