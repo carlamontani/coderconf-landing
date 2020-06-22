@@ -1436,9 +1436,18 @@ html {
         }
     }
     .info-lucia{
-        font-size: 14px;
+        font-size: 11px;
         padding: 0;
         white-space: pre;
+        line-height: 0px;
+        span{
+            a:link{
+                font-size: 5px;
+                .icon-wp{
+                    margin-left: 5px;
+                }
+            }
+        }
     }
 }
 
