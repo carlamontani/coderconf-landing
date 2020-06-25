@@ -337,6 +337,9 @@ html {
                                     color: $color-terciario;
                                     padding-left: 10%;
                                 }
+                                .hidden-resp{
+                                    display: none;
+                                }
                                 .hora{
                                     @include dm-sans;
                                     font-weight: 700;
@@ -753,7 +756,7 @@ html {
                     font-size: 18px;
                 }
                 .hidden-resp{
-                    display: block;
+                    display: none;
                 }
             }
         }
@@ -1189,12 +1192,12 @@ html {
                                 #countdown-dias, #countdown-horas, #countdown-minutos, #countdown-segundos{
                                     font-size: 20px;
                                 } 
+                                .hidden-resp{
+                                    display: block;
+                                }
                             }
                             .hidden{
                                 display: none;
-                            }
-                            .hidden-resp{
-                                display: block;
                             }
                             .hora{
                                 padding: 0px 3px 0px 3px;
@@ -1372,12 +1375,12 @@ html {
                     #countdown-dias2, #countdown-horas2, #countdown-minutos2, #countdown-segundos2{
                         font-size: 20px;
                     } 
+                    .hidden-resp{
+                        display: block;
+                    }
                 }
                 .hidden{
                     display: none;
-                }
-                .hidden-resp{
-                    display: block;
                 }
                 .hora{
                     padding: 0px 3px 0px 3px;

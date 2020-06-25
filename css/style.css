@@ -296,6 +296,9 @@ html {
   color: white;
   padding-left: 10%;
 }
+.seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown .hidden-resp {
+  display: none;
+}
 .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown .hora {
   font-family: DM Sans;
   font-style: normal;
@@ -801,7 +804,7 @@ html {
   font-size: 18px;
 }
 .seccion-7 #contador .countdown-reloj .countdown .hidden-resp {
-  display: block;
+  display: none;
 }
 .seccion-7 #boton-seccion-7 {
   margin-left: auto;
@@ -1331,11 +1334,11 @@ html {
   .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-dias, .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-horas, .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-minutos, .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-segundos {
     font-size: 20px;
   }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown .hidden-resp {
+    display: block;
+  }
   .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .hidden {
     display: none;
-  }
-  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .hidden-resp {
-    display: block;
   }
   .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .hora {
     padding: 0px 3px 0px 3px;
@@ -1510,11 +1513,11 @@ html {
   .seccion-7 #contador .countdown-reloj .countdown #countdown-dias2, .seccion-7 #contador .countdown-reloj .countdown #countdown-horas2, .seccion-7 #contador .countdown-reloj .countdown #countdown-minutos2, .seccion-7 #contador .countdown-reloj .countdown #countdown-segundos2 {
     font-size: 20px;
   }
+  .seccion-7 #contador .countdown-reloj .countdown .hidden-resp {
+    display: block;
+  }
   .seccion-7 #contador .countdown-reloj .hidden {
     display: none;
-  }
-  .seccion-7 #contador .countdown-reloj .hidden-resp {
-    display: block;
   }
   .seccion-7 #contador .countdown-reloj .hora {
     padding: 0px 3px 0px 3px;
