@@ -800,6 +800,9 @@ html {
   padding-left: 10px;
   font-size: 18px;
 }
+.seccion-7 #contador .countdown-reloj .countdown .hidden-resp {
+  display: block;
+}
 .seccion-7 #boton-seccion-7 {
   margin-left: auto;
 }
@@ -933,6 +936,9 @@ html {
   text-transform: uppercase;
   padding-top: 20px;
   color: #8215BC;
+}
+.seccion-10 .title h3 .thin {
+  font-family: "GoboldThinLight-Italic";
 }
 .seccion-10 .form-seccion-10 {
   display: flex;
@@ -1280,7 +1286,7 @@ html {
   .seccion-1 .video-banner .banner {
     flex-direction: column;
     width: 90%;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-left: 20px;
   }
   .seccion-1 .video-banner .banner .info-banner {
@@ -1298,20 +1304,41 @@ html {
     width: 100%;
     left: 0%;
     top: 500px;
+    padding: 5px;
   }
   .seccion-1 .video-banner .banner .cuenta-regresiva .contador {
     flex-direction: column;
+    width: 100%;
   }
   .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info {
     flex-direction: column;
     padding-top: 20px;
     padding-left: 0;
   }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info #texto-preventa {
+    text-align: center;
+  }
   .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown {
+    padding: 10px 0px;
+  }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-dias, .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-horas, .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-minutos, .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .countdown #countdown-segundos {
+    font-size: 20px;
+  }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .hidden {
+    display: none;
+  }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .hidden-resp {
+    display: block;
+  }
+  .seccion-1 .video-banner .banner .cuenta-regresiva .contador .contador-info .countdown-reloj .hora {
+    padding: 0px 3px 0px 3px;
   }
 
   .seccion-2 {
@@ -1480,6 +1507,18 @@ html {
   .seccion-7 #contador .countdown-reloj .countdown {
     padding: 10px 0px;
   }
+  .seccion-7 #contador .countdown-reloj .countdown #countdown-dias2, .seccion-7 #contador .countdown-reloj .countdown #countdown-horas2, .seccion-7 #contador .countdown-reloj .countdown #countdown-minutos2, .seccion-7 #contador .countdown-reloj .countdown #countdown-segundos2 {
+    font-size: 20px;
+  }
+  .seccion-7 #contador .countdown-reloj .hidden {
+    display: none;
+  }
+  .seccion-7 #contador .countdown-reloj .hidden-resp {
+    display: block;
+  }
+  .seccion-7 #contador .countdown-reloj .hora {
+    padding: 0px 3px 0px 3px;
+  }
   .seccion-7 #boton-seccion-7 {
     margin: auto;
     padding-top: 20px;
@@ -1521,6 +1560,9 @@ html {
     height: fit-content;
     padding-bottom: 40px;
     padding-top: 40px;
+  }
+  .seccion-10 .title h3 {
+    font-size: 28px;
   }
   .seccion-10 .form-seccion-10 {
     padding: 0;
@@ -1574,7 +1616,7 @@ html {
   }
 
   .info-lucia {
-    font-size: 11px;
+    font-size: 12px;
     padding: 0;
     white-space: pre;
     line-height: 0px;
@@ -1675,7 +1717,7 @@ html {
     transition: visibility 0s, opacity 0.3s linear;
   }
   .seccion-1 .video-banner .header-nav .nav-1 #menu .menu-principal #menu-li {
-    padding: 50px 25px;
+    padding: 15px 25px;
     font-size: 16px;
     display: flex;
     justify-content: center;
