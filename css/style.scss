@@ -118,17 +118,18 @@
     font-size: 15px;
     outline: none;
     &:hover {
-        box-sizing: border-box; 
-        border: 2px solid $color-secundario;
-        background: transparent;
-        color: $color-secundario;
-        transition: 0.3s;
-    }
-    &:active{
         background-color: $color-terciario;
         color: $color-terciario-3;
         padding: 14px 20px;
         border: 2px solid $color-terciario;
+        transition: 0.3s;
+    }
+    &:active{
+        box-sizing: border-box; 
+        border: 2px solid $color-secundario;
+        background: $color-terciario-3;
+        color: $color-secundario;
+        transition: 0.3s;
     }
 }
 
@@ -419,7 +420,7 @@ html {
 
 .seccion-3{
     @include flexCenter(transparent);
-    background-color: $color-secundario;
+    background-color: #dcff02;
     height: 520px;
     width: 100%;
     justify-content: space-between;
@@ -1621,8 +1622,9 @@ html {
     .seccion-3{
         #img-seccion-3{
             .bg-video{
-                width: 90%;
+                width: 80%;
                 height: auto;
+                padding-top: 20px;
             }
         }
     }
@@ -1634,8 +1636,9 @@ html {
             z-index: 1;
             .bg-video{
                 width: auto;
-                height: 60%;
+                height: 55%;
                 transform: translate(25%);
+                padding-top: 30px;
             }
         }
     }

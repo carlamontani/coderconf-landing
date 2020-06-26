@@ -242,17 +242,18 @@ html {
   outline: none;
 }
 .seccion-1 .video-banner .banner .cuenta-regresiva .contador #botonconprecio .boton-2:hover {
-  box-sizing: border-box;
-  border: 2px solid #E4FF22;
-  background: transparent;
-  color: #E4FF22;
-  transition: 0.3s;
-}
-.seccion-1 .video-banner .banner .cuenta-regresiva .contador #botonconprecio .boton-2:active {
   background-color: white;
   color: black;
   padding: 14px 20px;
   border: 2px solid white;
+  transition: 0.3s;
+}
+.seccion-1 .video-banner .banner .cuenta-regresiva .contador #botonconprecio .boton-2:active {
+  box-sizing: border-box;
+  border: 2px solid #E4FF22;
+  background: black;
+  color: #E4FF22;
+  transition: 0.3s;
 }
 .seccion-1 .video-banner .banner .cuenta-regresiva .contador #botonconprecio .boton-2 i {
   padding-right: 8px;
@@ -405,7 +406,7 @@ html {
   justify-content: center;
   align-items: center;
   background: transparent;
-  background-color: #E4FF22;
+  background-color: #dcff02;
   height: 520px;
   width: 100%;
   justify-content: space-between;
@@ -1743,8 +1744,9 @@ html {
 }
 @media (min-aspect-ratio: 16/9) {
   .seccion-3 #img-seccion-3 .bg-video {
-    width: 90%;
+    width: 80%;
     height: auto;
+    padding-top: 20px;
   }
 }
 @media (max-aspect-ratio: 16/9) {
@@ -1753,8 +1755,9 @@ html {
   }
   .seccion-3 #img-seccion-3 .bg-video {
     width: auto;
-    height: 60%;
+    height: 55%;
     transform: translate(25%);
+    padding-top: 30px;
   }
 }
 
