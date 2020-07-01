@@ -208,6 +208,10 @@ html {
   text-transform: uppercase;
   color: #E4FF22;
   text-transform: uppercase;
+  line-height: 38px;
+}
+.seccion-1 .video-banner .banner .info-banner h4 .thin-title {
+  font-family: "GoboldThinLight-Italic";
 }
 .seccion-1 .video-banner .banner .cuenta-regresiva {
   position: absolute;
@@ -314,7 +318,7 @@ html {
   justify-content: center;
   align-items: center;
   background: white;
-  height: 480px;
+  height: 500px;
   width: 100%;
 }
 .seccion-2 #speakersreconocidos-seccion-2 {
@@ -407,7 +411,7 @@ html {
   align-items: center;
   background: transparent;
   background-color: #dcff02;
-  height: 520px;
+  height: 500px;
   width: 100%;
   justify-content: space-between;
   align-items: flex-start;
@@ -420,7 +424,7 @@ html {
   justify-content: end;
 }
 .seccion-3 #img-seccion-3 .bg-video {
-  height: 400px;
+  width: 80%;
   z-index: 1;
   position: absolute;
   overflow: hidden;
@@ -1303,6 +1307,9 @@ html {
   .seccion-1 .video-banner .banner .info-banner h2 {
     font-size: 35px;
   }
+  .seccion-1 .video-banner .banner .info-banner h4 {
+    font-size: 16px;
+  }
   .seccion-1 .video-banner .banner .cuenta-regresiva {
     height: 300px;
     width: 100%;
@@ -1744,9 +1751,9 @@ html {
 }
 @media (min-aspect-ratio: 16/9) {
   .seccion-3 #img-seccion-3 .bg-video {
-    width: 80%;
+    width: 65%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 }
 @media (max-aspect-ratio: 16/9) {
