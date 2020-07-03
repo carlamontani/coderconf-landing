@@ -1751,7 +1751,7 @@ html {
 }
 @media (min-aspect-ratio: 16/9) {
   .seccion-3 #img-seccion-3 .bg-video {
-    width: 65%;
+    width: 55%;
     height: auto;
     padding-top: 10px;
     margin-left: 40px;
